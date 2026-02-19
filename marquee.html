@@ -1,1 +1,21 @@
-
+<!-- Your 'marquee' class is the class you edit to cahnge the style of the marquee. 
+This would be such as adding a border, how long it is, how tall it is, and other such .css styling -->
+<div class="marquee">
+  
+  <!-- To account for how many images you have in your scroll, you edit the from-width, to-width, and time values. -->
+  <!-- Usually, from-width sits at 0%, aka the start of the scroll, but you may want to change it if you have a very small or very large list of images. -->
+  <!-- Your to-width, is what allows for a smooth scroll/repeat of images. 
+    Since the scroll essentially jumps back to its originally position to restart its movement, you want to make that jump as small as possible, to trick the naked eye. -->
+  <!-- The time is simply how fast it scrolls. -->
+  <div class="scroll" style="--from-width:XX%; --to-width:XX%; --time:XXs">
+    <span>
+      
+      <img src="SOURCE HERE">
+      <img src="SOURCE 2 HERE">
+      <img src="SOURCE 3 HERE">
+      <img src="ETC">
+      
+    </span>
+  </div>
+  
+</div>
